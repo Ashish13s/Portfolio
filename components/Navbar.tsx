@@ -32,7 +32,7 @@ const Navbar = () => {
         <>
             <header className={`py-10 sticky top-0 z-50 shadow-green-400 ${scroll ? "shadow-sm" : ""}`}>
                 <nav className="hidden md:block md:flex md:justify-between md:mx-32 md:items-center">
-                    <Link className="font-medium text-2xl" href="/">RANGER</Link>
+                    <Link className="font-medium text-2xl" href="/">NOVA</Link>
                     <div className="">
                         <ul className="flex font-medium">
                             <li className="px-2">
@@ -58,7 +58,7 @@ const Navbar = () => {
                 </nav>
                 <nav className="block md:hidden justify-between mx-16">
                     <div className="flex justify-between">
-                        <Link className="font-medium text-2xl" href="/">RANGER</Link>
+                        <Link className="font-medium text-2xl" href="/">NOVA</Link>
                         <button onClick={() => setOpen(!open)}>{open ? <RxCross1 size={25} /> : <GiHamburgerMenu size={25} />}</button>
                     </div>
                     {open && <div className="mt-12 top-0 z-50">

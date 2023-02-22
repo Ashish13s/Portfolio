@@ -125,7 +125,7 @@ const Home = () => {
 								Software Developer
 							</h1>
 							<p className="mb-12">
-								I&apos;m Ashish Singh, a software developer that likes to be referred to by my moniker &quot;RANGER&quot;
+								I&apos;m Ashish Singh, a software developer that likes to be referred to by my moniker &quot;NOVA&quot;
 								<br />
 								I am a Full Stack Web Developer that loves tinkering with Artificial Intelligence and Machine Learning
 							</p>
@@ -151,7 +151,7 @@ const Home = () => {
 					<h1 className="text-5xl font-semibold mb-4">About Me</h1>
 					<h1 className="text-2xl mb-4 text-green-400">My Introduction</h1>
 					<div className="flex flex-col space-y-12 md:space-x-32 justify-center items-center md:items-start md:flex-row">
-						<img className="h-72 w-72 rounded-l" src="DP.JPG" />
+						<img className="h-72 w-72 rounded-l" src="DP.jfif" />
 						<div className="flex flex-col space-y-20 justify-center items-center grow mx-12 md:items-start">
 							<p>
 								I&apos;m well versed in the technical domains of Web Development,AI/ML .
@@ -174,7 +174,7 @@ const Home = () => {
 				<div className="pt-28 md:mx-32 md:pt-44 flex flex-col items-center">
 					<h1 className="text-5xl font-semibold mb-4">Skills</h1>
 					<h1 className="text-2xl mb-4 text-green-400">My Technical Skills</h1>
-					<div className="grid grid-cols-5 md:grid-cols-12 gap-x-10 gap-y-10 ">
+					<div className="grid grid-cols-4 md:grid-cols-12 gap-x-8 gap-y-8 ">
 						<div className={SkillsStyles.tooltip}><SiPython size={50} /><span className={SkillsStyles.tooltiptext}>Python</span></div>
 						<div className={SkillsStyles.tooltip}><SiJavascript size={50} /><span className={SkillsStyles.tooltiptext}>Javascript</span></div>
 						<div className={SkillsStyles.tooltip}><SiTypescript size={50} /><span className={SkillsStyles.tooltiptext}>Typescript</span></div>
