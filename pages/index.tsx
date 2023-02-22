@@ -151,7 +151,7 @@ const Home = () => {
 					<h1 className="text-5xl font-semibold mb-4">About Me</h1>
 					<h1 className="text-2xl mb-4 text-green-400">My Introduction</h1>
 					<div className="flex flex-col space-y-12 md:space-x-32 justify-center items-center md:items-start md:flex-row">
-						<img className="h-72 w-72 rounded-l" src="DP.jfif" />
+						<img className="h-72 w-74 rounded-xl" src="DP.jfif" />
 						<div className="flex flex-col space-y-20 justify-center items-center grow mx-12 md:items-start">
 							<p>
 								I&apos;m well versed in the technical domains of Web Development,AI/ML .
