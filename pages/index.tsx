@@ -125,9 +125,7 @@ const Home = () => {
 								Software Developer
 							</h1>
 							<p className="mb-12">
-								I&apos;m Ashish Singh, a software developer that likes to be referred to by my moniker &quot;NOVA&quot;
-								<br />
-								I am a Full Stack Web Developer that loves tinkering with Artificial Intelligence and Machine Learning
+								I&apos;m Ashish Singh, a Full Stack Web Developer that loves tinkering with Artificial Intelligence and Machine Learning
 							</p>
 							<a className="bg-green-500 text-white p-4 flex w-36 text-1xl rounded-xl justify-around font-semibold" href="mailto:ashishsingh2024.13@gmail.com">
 								Say Hello
@@ -244,33 +242,6 @@ const Home = () => {
 			</div>
 
 
-			<a id="experience"></a>
-			<div>
-				<div className="pt-28 md:mx-32 md:pt-44 flex flex-col items-center">
-					<h1 className="text-5xl font-semibold mb-4">Experience</h1>
-					<h1 className="text-2xl mb-4 text-green-400">My Work So Far</h1>
-					<div className="flex flex-col ml-6">
-						<div className="flex space-x-8 md:space-x-32 my-8">
-					
-						</div>	
-						<div className="flex space-x-8 md:space-x-32 my-8">
-							<div className="">
-								<div className="transition-all inline-block h-16 w-16 rounded-full  hover:-scale-125 duration-700">
-									<img className="h-16 w-16 rounded-full" src="CryptoViz.png" />
-								</div>
-								<div className="block w-1 h-full bg-green-400 ml-7"></div>
-							</div>
-							<div>
-								<h1 className="text-2xl mb-4">SDE Intern</h1>
-								<h1 className="text-2xl mb-4 text-green-400">CryptoViz</h1>
-								<div>
-									<h1 className="flex space-x-4 items-center"><SlCalender /><div>November 2022 - December 2022</div></h1>
-								</div>
-							</div>
-						</div>	
-					</div>
-				</div>
-			</div>
 
 
 			<a id="projects"></a>
@@ -288,15 +259,7 @@ const Home = () => {
 								<a className="bg-green-500 text-white p-4 flex w-18 text-1xl rounded-xl font-semibold mt-4" href="https://github.com/Ashish13s/IMDB-Clone">View</a>
 							</div>
 						</div>
-						{/* <div className="flex flex-col items-center py-10 px-10 mx-4 shadow-sm shadow-green-400 rounded-xl space-y-4">
-							<h1 className="text-3xl font-semibold pb-4">E-Market Website</h1>
-							<p className="">
-							An E-commerce website where both customers and sellers can register with editable profiles, add-to-cart- buy-now options with user verification and responsiveness with admin control panel.Used Express to incorporate REST API features into the server.Added MongoDB with cryptoJS encryption to maintain data persistence between sessions.
-							</p>
-							<div>
-								<a className="bg-green-500 text-white p-4 flex w-18 text-1xl rounded-xl font-semibold mt-4" href="">View</a>
-							</div>
-						</div> */}
+						
 						<div className="flex flex-col items-center py-10 px-10 mx-4 shadow-sm shadow-green-400 rounded-xl space-y-4">
 							<h1 className="text-3xl font-semibold pb-4">Priority Management Tracker</h1>
 							<p className="">

@@ -31,8 +31,8 @@ const Navbar = () => {
     return (
         <>
             <header className={`py-10 sticky top-0 z-50 shadow-green-400 ${scroll ? "shadow-sm" : ""}`}>
-                <nav className="hidden md:block md:flex md:justify-between md:mx-32 md:items-center">
-                    <Link className="font-medium text-2xl" href="/">NOVA</Link>
+                <nav className="hidden  md:flex md:justify-between md:mx-32 md:items-center">
+                    <Link className="font-medium text-2xl" href="/">Ashish</Link>
                     <div className="">
                         <ul className="flex font-medium">
                             <li className="px-2">
@@ -43,9 +43,6 @@ const Navbar = () => {
                             </li>
                             <li className="px-2">
                                 <Link href="#skills">Skills</Link>
-                            </li>
-                            <li className="px-2">
-                                <Link href="#experience">Experience</Link>
                             </li>
                             <li className="px-2">
                                 <Link href="#projects">Projects</Link>
@@ -84,14 +81,6 @@ const Navbar = () => {
                                     <div className="flex flex-col justify-center items-center">
                                         <GiSkills size={25} />
                                         Skills
-                                    </div>
-                                </Link>
-                            </li>
-                            <li className="px-2">
-                                <Link href="#experience">
-                                    <div className="flex flex-col justify-center items-center">
-                                        <MdWork size={25} />
-                                        Experience
                                     </div>
                                 </Link>
                             </li>
